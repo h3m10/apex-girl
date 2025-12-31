@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CHARACTERS } from '../constants';
+import { CHARACTERS } from '../constants.tsx';
 
 const CharacterShowcase: React.FC = () => {
   return (

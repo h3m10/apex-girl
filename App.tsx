@@ -1,9 +1,9 @@
 
 import React, { useCallback } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import FeaturesSection from './components/FeaturesSection';
-import CharacterShowcase from './components/CharacterShowcase';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import FeaturesSection from './components/FeaturesSection.tsx';
+import CharacterShowcase from './components/CharacterShowcase.tsx';
 
 const App: React.FC = () => {
   const handleDownload = useCallback(() => {

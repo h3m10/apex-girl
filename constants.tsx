@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Character, Feature } from './types';
+import { Character, Feature } from './types.ts';
 
 export const CHARACTERS: Character[] = [
   {
